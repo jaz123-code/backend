@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, func
 from sqlalchemy.types import LargeBinary
-from .database import Base
+from database import Base
 
 class Memory(Base):
     __tablename__ = "memories"

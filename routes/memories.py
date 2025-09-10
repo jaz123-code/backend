@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from .. import models, schemas
-from ..database import SessionLocal
+from database import SessionLocal
 
 router = APIRouter(prefix="/memories", tags=["Memories"])
 

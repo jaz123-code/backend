@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from .database import Base, engine
-from .routes import memories
+# ✅ Correct
+from database import Base, engine
+from routes import memories
 from fastapi.middleware.cors import CORSMiddleware
 
 
