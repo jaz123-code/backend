@@ -23,8 +23,7 @@ websockets==15.0.1
 sentence-transformers==2.2.2
 huggingface-hub==0.14.1
 transformers==4.30.2
-tokenizers==0.15.2   # bumped to avoid Rust build issues
-torch== 2.8.0        # updated for Python 3.13 support
-numpy==1.26.4        # latest stable, compatible with Torch 2.5.1
-
+tokenizers==0.13.3        # downgraded to match transformers
+torch==2.8.0              # newest with Python 3.13 wheels
+numpy==1.26.4
 
