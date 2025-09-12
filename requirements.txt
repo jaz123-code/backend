@@ -23,7 +23,7 @@ websockets==15.0.1
 sentence-transformers==2.2.2
 huggingface-hub==0.14.1
 transformers==4.30.2
-tokenizers==0.19.1# downgraded to match transformers
+tokenizers==0.19.1
 torch==2.8.0              # newest with Python 3.13 wheels
 numpy==1.26.4
 
